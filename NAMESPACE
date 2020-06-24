@@ -1,0 +1,22 @@
+useDynLib(pamfe,.registration = TRUE)
+
+exportPattern(".")
+
+# Import all packages listed as Imports or Depends
+import(
+  Matrix,
+  mgcv,
+  plm,
+  splines
+)
+importFrom(methods, as)
+importFrom(grDevices, grey)
+importFrom("graphics","lines", "par", "plot", "points", "polygon")
+
+importFrom("stats", "acf", "aggregate", "as.formula", "gaussian",
+             "model.matrix", "na.omit", "pacf", "pchisq", "pf", "pnorm",
+             "predict", "pt", "reformulate", "runif", "terms","var")
+S3method(summary, pam)
+
+
+

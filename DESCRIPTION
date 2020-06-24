@@ -1,0 +1,14 @@
+Package: pamfe
+Type: Package
+Title: Semiparametric Regression for Fixed Effects Panel Data Models
+        with Simultaneous Confidence Bands
+Version: 0.2
+Date: 2017-09-01
+Author: Peter Puetz
+Maintainer: Peter Puetz <ppuetz@uni-goettingen.de>
+Description: First-difference estimation of semiparametric panel data models with fixed effects. A penalized splines approach is used for the estimation of nonparametric model components.	Simultaneous confidence bands are obtained by exploiting the mixed model representation of penalized splines and the volume-of-tube formula.
+License: GPL (>= 2)
+NeedsCompilation: yes
+Depends: Matrix, mgcv, plm, splines,stats, methods, grDevices, graphics
+Suggests: nlme
+Packaged: 2019-03-13 05:37:20 UTC; Peter
